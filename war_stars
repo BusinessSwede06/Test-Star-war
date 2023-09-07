@@ -16,14 +16,14 @@ print(f"Partner: {partner}")
 
 import random
 
-partners = ["Chewbacca", "R2-D2", "C-3PO", "Barack Obama", "A Squirrell", "K-250", "Reginald", "Joseph Stalin", "Vladmir Lenin"]
+partners = ["Chewbacca", "R2-D2", "C-3PO", "Barack Obama", "A Squirrell", "K-250", "Reginald", "Joseph Stalin", "Vladimir Lenin"]
 partner = random = random.choice(partners)
 print(partner)
 print("\n--------------------------------------------")
 
 if occupation.lower() == "jedi":
   print(
-    f"ah,{character_name} I see you are a Jedi, honorable, but your morales may be your downfall."
+    f"hmm,{character_name} I see you are a Jedi, honorable, but be careful, some out there frown upon your very existence."
   )
 
 if occupation.lower() == "sith":
