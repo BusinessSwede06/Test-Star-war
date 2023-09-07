@@ -1,0 +1,37 @@
+character_name = input("enter the name of your character? ")
+species = input("what is your species? ")
+occupation = input("what is your occupation? (lowercaps please) ")
+weapon = input("what are you armed with? ")
+home_planet = input("where were you born? ")
+partner = input("Who is your partner? ")
+
+
+print("\n----------Star Wars Character Bio!----------")
+print(f"Name: {character_name}")
+print(f"Species: {species}")
+print(f"Occupation: {occupation}")
+print(f"Equipment: {weapon}")
+print(f"Home Planet: {home_planet}")
+print(f"Partner: {partner}")
+
+import random
+
+partners = ["Chewbacca", "R2-D2", "C-3PO", "Barack Obama", "A Squirrell", "K-250", "Reginald"]
+partner = random = random.choice(partners)
+print(partner)
+print("\n--------------------------------------------")
+
+if occupation.lower() == "jedi":
+  print(
+    f"ah,{character_name} I see you are a Jedi, honorable, but your morales may be your downfall."
+  )
+
+if occupation.lower() == "sith":
+  print(
+    f"hmm, {character_name}, you choose the dark side, beware, your lust for power might get you   killed."
+  )
+
+if occupation.lower() == "bounty hunter":
+  print(
+    f"A bounty hunter, you make your profit of of the lives of others, careful who you trust, you might just get shot."
+  )
