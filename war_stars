@@ -16,7 +16,7 @@ print(f"Partner: {partner}")
 
 import random
 
-partners = ["Chewbacca", "R2-D2", "C-3PO", "Barack Obama", "A Squirrell", "K-250", "Reginald"]
+partners = ["Chewbacca", "R2-D2", "C-3PO", "Barack Obama", "A Squirrell", "K-250", "Reginald", "Joseph Stalin", "Vladmir Lenin"]
 partner = random = random.choice(partners)
 print(partner)
 print("\n--------------------------------------------")
